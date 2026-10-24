@@ -1,13 +1,13 @@
 <h1 align="center">Запуск:</h1>  
  
 ```
-git clone https://github.com/kilanoqqq-q/lab-3-kilanoqqq.git
+git clone https://github.com/kilanoqqq-q/lab-4-kilanoqqq.git
 
-cd lab-3-kilanoqqq
+cd lab-4-kilanoqqq
 
-docker build -t my-app .
+docker build -t app .
 
-docker run --rm -p 5000:5000 -p 2121:2121 -p 30000-30010:30000-30010 my-app
+docker run --rm -p 5000:5000 -p 8001:8081 -p 30000-30010:30000-30010 app
 ```
 
 <h1 align="center">Отчёт по лабораторной работе</h1>
