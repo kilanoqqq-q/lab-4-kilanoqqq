@@ -7,7 +7,7 @@ cd lab-4-kilanoqqq
 
 docker build -t app .
 
-docker run --rm -p 5000:5000 -p 8001:8081 -p 30000-30010:30000-30010 app
+docker run --rm -p 5000:5000 -p 8081:8081 -p 30000-30010:30000-30010 app
 ```
 
 <h1 align="center">Отчёт по лабораторной работе</h1>
